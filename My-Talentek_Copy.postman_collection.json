@@ -272,7 +272,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "{{tk}}",
+							"value": "{{tt}}",
 							"type": "string"
 						}
 					]
@@ -407,7 +407,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9xYS50YWx0ZWt0Yy5jb20iLCJhdWQiOiJUSEVfQVVESUVOQ0UiLCJpYXQiOjE2MTk0NDg3NDcsIm5iZiI6MTYxOTQ0ODc1NywiZXhwIjoxNjE5NTM1MTQ3LCJpc19hZG1pbiI6ZmFsc2UsImRhdGEiOnsiaWQiOiIzMCIsImZpcnN0X25hbWUiOiJOZXd0b24iLCJsYXN0X25hbWUiOiJNY0N1bGxvdWdoIiwiZW1haWwiOiJFbHZlcmEuT0Nvbm5lcjM3QGhvdG1haWwuY29tIiwic3R1ZGVudElkIjoiVFRDb2c2M1EifX0.Xubb7ASESmS9bCvINIzG3ZtS4923NbySrss4AE21XTs",
+							"value": "{{tt}}",
 							"type": "string"
 						}
 					]
@@ -424,13 +424,13 @@
 					}
 				},
 				"url": {
-					"raw": "{{BaseUrl}}/updatePassword/{{studentid}}",
+					"raw": "{{BaseUrl}}/updatePassword/{{ID}}",
 					"host": [
 						"{{BaseUrl}}"
 					],
 					"path": [
 						"updatePassword",
-						"{{studentid}}"
+						"{{ID}}"
 					]
 				}
 			},
